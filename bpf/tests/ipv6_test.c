@@ -143,7 +143,7 @@ int ipv6_with_hop_auth_tcp_setup(__maybe_unused struct __ctx_buff *ctx)
 	return 1234;
 }
 
-CHECK("xdp", "ipv6_with_auth_hop_tcp")
+CHECK("xdp", "ipv6_with_auth_hop_tc")
 int ipv6_with_hop_auth_tcp_check(struct __ctx_buff *ctx)
 {
 	void *data, *data_end;
